@@ -12,9 +12,9 @@ on:
       - 'modules/**'
   pull_request:
     branches: [main]
-    paths:
-      - 'envs/dev/**'
-      - 'modules/**'
+    # paths:
+    #   - 'envs/dev/**'
+    #   - 'modules/**'
   workflow_dispatch:
     inputs:
       action:
