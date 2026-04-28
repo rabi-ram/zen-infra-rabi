@@ -48,6 +48,7 @@ module "ecr" {
     "pharma-ui",
     "notification-service",
     "drug-catalog-service"
+    "qc-service"
   ]
 }
 
