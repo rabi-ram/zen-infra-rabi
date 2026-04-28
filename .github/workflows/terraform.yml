@@ -185,6 +185,6 @@ jobs:
           terraform destroy \
             -var="db_password=${{ secrets.DEV_DB_PASSWORD }}" \
             -var="jwt_secret=${{ secrets.DEV_JWT_SECRET }}" \
-            -var="github_org=ravdy" \
+            -var="github_org=rabi-ram" \
             -auto-approve \
             -no-color
